@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ecell.esummit.Dashboard">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/circle_speakerlist"
+        android:text="SPEAKER LIST"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"/>
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="2">
+            <Button
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/circle_track_blue"
+                android:id="@+id/tech"
+                android:text="TECH"
+                android:layout_rowWeight="1"  />
+            <Button
+                android:layout_columnWeight="1"
+                android:background="@drawable/cirle_track_green"
+                android:layout_margin="10dp"
+                android:text="STARTUP \n PLANET"
+                android:id="@+id/startup"
+                android:layout_rowWeight="1"  />
+
+            <Button
+              android:layout_columnWeight="1"
+                android:background="@drawable/cirle_track_red"
+                android:layout_margin="10dp"
+                android:text="BUSINESS"
+                android:id="@+id/business"
+              android:layout_rowWeight="1"  />
+
+
+            <Button
+                android:layout_columnWeight="1"
+                android:background="@drawable/cirle_track_grey"
+                android:layout_margin="10dp"
+                android:text="INNOVATION"
+                android:id="@+id/innovation"
+                android:layout_rowWeight="1"  />
+
+
+
+        </GridLayout>
+
+
+
+
+
+       <!--<LinearLayout-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:orientation="horizontal"-->
+           <!--android:layout_weight="2"-->
+
+           <!--android:layout_height="wrap_content">-->
+         <!--<Button-->
+             <!--android:layout_width="wrap_content"-->
+             <!--android:layout_height="wrap_content"-->
+             <!--android:background="@drawacirle_track_greyacks"-->
+             <!--android:layout_margin="10dp"-->
+             <!--android:text="BUSINESS"-->
+             <!--android:layout_weight="1"/>-->
+           <!--<Button-->
+               <!--android:layout_width="wrap_content"-->
+               <!--android:layout_height="wrap_content"-->
+               <!--android:layout_margin="10dp"-->
+               <!--android:text="TECH"-->
+               <!--android:background="@drawacirle_track_greyacks"-->
+               <!--android:layout_weight="1"/>-->
+
+       <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_weight="2"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawacirle_track_greyacks"-->
+                <!--android:text=" INNOVATION" />-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawacirle_track_greyacks"-->
+                <!--android:text="START UP-->
+<!--PLANET" />-->
+
+        <!--</LinearLayout>-->
+</LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
